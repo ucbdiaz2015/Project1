@@ -13,6 +13,8 @@
 		FD0406A61B75229C00356CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0406A51B75229C00356CB9 /* Assets.xcassets */; };
 		FD0406A91B75229C00356CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0406A71B75229C00356CB9 /* LaunchScreen.storyboard */; };
 		FD0406B41B75229C00356CB9 /* Project1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0406B31B75229C00356CB9 /* Project1Tests.swift */; };
+		FD0406BF1B75239200356CB9 /* Project1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0406BE1B75239200356CB9 /* Project1.swift */; };
+		FD0406C01B75239200356CB9 /* Project1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0406BE1B75239200356CB9 /* Project1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		FD0406AF1B75229C00356CB9 /* Project1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0406B31B75229C00356CB9 /* Project1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1Tests.swift; sourceTree = "<group>"; };
 		FD0406B51B75229C00356CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0406BE1B75239200356CB9 /* Project1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 				FD0406A51B75229C00356CB9 /* Assets.xcassets */,
 				FD0406A71B75229C00356CB9 /* LaunchScreen.storyboard */,
 				FD0406AA1B75229C00356CB9 /* Info.plist */,
+				FD0406BE1B75239200356CB9 /* Project1.swift */,
 			);
 			path = Project1;
 			sourceTree = "<group>";
@@ -196,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0406BF1B75239200356CB9 /* Project1.swift in Sources */,
 				FD0406A11B75229C00356CB9 /* ViewController.swift in Sources */,
 				FD04069F1B75229C00356CB9 /* AppDelegate.swift in Sources */,
 			);
@@ -206,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD0406B41B75229C00356CB9 /* Project1Tests.swift in Sources */,
+				FD0406C01B75239200356CB9 /* Project1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +333,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Project1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TalentSpark.Project1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -338,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Project1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TalentSpark.Project1;
 				PRODUCT_NAME = "$(TARGET_NAME)";

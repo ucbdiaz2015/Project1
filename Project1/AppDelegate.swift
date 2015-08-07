@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Project1
-//
-//  Created by Stepan Grigoryan on 8/7/15.
-//  Copyright © 2015 Stepan Grigoryan. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
