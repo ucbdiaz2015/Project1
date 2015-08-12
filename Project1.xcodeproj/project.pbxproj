@@ -395,6 +395,7 @@
 				FD0406BA1B75229C00356CB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD0406BB1B75229C00356CB9 /* Build configuration list for PBXNativeTarget "Project1Tests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +404,7 @@
 				FD0406BD1B75229C00356CB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

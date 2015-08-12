@@ -1,7 +1,7 @@
 import XCTest
 @testable import Project1
 
-class Project1Tests: XCTestCase {
+class GOLTests: XCTestCase {
     
     var states: [[Bool]] = [
         [false, false, true],
@@ -31,6 +31,26 @@ class Project1Tests: XCTestCase {
         ]
         XCTAssertEqual(expected, nextStates)
     }
+}
 
-    
+class LRUCacheTests: XCTestCase {
+
+    func testBasic() {
+        let cache = LRUCache<Int, String>(capacity: 2)
+        XCTAssertNil(cache.get(3))
+
+        cache.set(3, v: "Hello")
+        let s = cache.get(3)
+        XCTAssertNotNil(s)
+        XCTAssertEqual(s!, "Hello")
+    }
+
+    func testMiss() {
+        let cache = LRUCache<Int, String>(capacity: 2)
+        cache.set(3, v: "Hello")
+        cache.set(2, v: "World!")
+        cache.set(4, v: "Swift")
+        XCTAssertNil(cache.get(3))
+        XCTAssertEqual(cache.get(2)!, "World!")
+    }
 }
