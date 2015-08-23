@@ -22,4 +22,4 @@ Your job is to implement ```nextCellStates(currentStates: [[Bool]]) -> [[Bool]]`
 
 
 ## Problem 2 - LRU Cache
-The objective for this problem is to create a working implementation of LRU Cache. The skeleton is already created for you in *Project1/Project1.swift*. Your job is to implement the ```get``` and ```set``` methods.
+The objective for this problem is to create a working implementation of LRU Cache. The skeleton is already created for you in *Project1/Project1.swift*. Your job is to implement the ```get``` and ```set``` methods. As with the first problem, make sure all the tests pass and add more to test different edge cases.
